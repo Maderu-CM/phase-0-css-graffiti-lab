@@ -1,1 +1,35 @@
-/* write your override styles here */
+/* Select and hide tag-1 */
+#wall .tag-1 {
+    display: none;
+  }
+  
+  /* Select and hide tag-2 */
+  #wall #tag-2 {
+    display: none;
+  }
+  
+  /* Select and hide tag-3 */
+  #wall #tag-3.slick.wicked {
+    display: none;
+  }
+  
+  /* Select and hide tag-4 */
+  #wall #tag-4 {
+    display: none;
+  }
+  
+  /* Select and hide tag-5 */
+  #wall .parent #tag-5.slick {
+    display: none;
+  }
+  
+  /* Select and hide tag-6 */
+  #wall .parent div:last-child > div #tag-6 {
+    display: none;
+  }
+  
+  /* Select and hide tag-7 */
+  #wall .parent div div:last-child > #tag-7.slick {
+    display: none;
+  }
+  
